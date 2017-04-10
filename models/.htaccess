@@ -1,0 +1,11 @@
+ErrorDocument 404 /Matchday/
+ErrorDocument 400 /Matchday/
+ErrorDocument 401 /Matchday/
+ErrorDocument 403 /Matchday/
+ErrorDocument 500 /Matchday/
+
+options -Indexes
+
+
+
+DirectoryIndex /Matchday/

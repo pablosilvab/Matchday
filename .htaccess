@@ -1,0 +1,9 @@
+ErrorDocument 404 /Matchday/?controlador=Error&accion=error
+ErrorDocument 400 /Matchday/?controlador=Error&accion=error
+ErrorDocument 401 /Matchday/?controlador=Error&accion=error
+ErrorDocument 403 /Matchday/?controlador=Error&accion=error
+ErrorDocument 500 /Matchday/?controlador=Error&accion=error
+
+Options +FollowSymLinks
+RewriteEngine on
+
